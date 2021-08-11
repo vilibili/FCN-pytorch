@@ -1,2 +1,2 @@
 # FCN-pytorch
-This is an implementation of FCN using pytoch
+This is an implementation of Fully Convolutional Networks using pytoch
