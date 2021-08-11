@@ -1,5 +1,5 @@
 # FCN-pytorch
-This is an implementation of Fully Convolutional Networks using pytorch
+This is an implementation of Fully Convolutional Networks using pytorch. (https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html)
 In the following, there is a predicted mask with image and groundtruth (In order from left to right: Eye image-Groundtruth image-Predicted mask):
 
 ![S4000L02_00003](https://user-images.githubusercontent.com/32045892/128972403-8a278203-0ba0-47e6-a7d3-2fb5c6f4812f.jpeg)
