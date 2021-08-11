@@ -24,11 +24,11 @@ num_epochs = 25
 batch_size = 2
 learning_rate = 0.0001
 
-image_list_path = r'dataset/CASIA-distance_detection_train256.txt'
-image_test_path = r'dataset/images256/S4000L02_00003.jpeg'
-mask_test_path = r'dataset\masks256\S4000L02_00003.png'
+image_list_path = r'dataset/train_list.txt'
+image_test_path = r'dataset/images/image-name.jpeg'
+mask_test_path = r'dataset/masks/image-name.png'
 ckpt_path = r'ckpt\FCN_model.pytorch'
-name = 'S4000L02_00003'
+name = 'image-name'
 image_test = imageio.imread(image_test_path)
 imageio.imsave(os.path.join('dataset', name + '.jpeg'), image_test, format='jpeg')
 image_test = torch.from_numpy(np.expand_dims(np.moveaxis(image_test, -1, 0), axis=0))
