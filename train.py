@@ -8,7 +8,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 from model.FCN_torch import FCN
 from torch.utils.data import DataLoader
-from utilities.dataReader_torch import datareader
+from utilities.dataReader import datareader
 
 # Device configuration
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
